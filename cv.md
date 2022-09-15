@@ -45,9 +45,10 @@ CV project <https://github.com/Sezim-Azemkulova/rsschool-cv/blob/gh-pages/cv.md>
 ## **Languages** ##
 * Kyrgyz - native
 * Russian 
-* Turkish **C1** according to sertificate from Kyrgyz-Turkish Manas University 
-* English TOEFL IBT **88**  
-I am Future Leaders Exchange programm alumna. I have lived in the USA as an exchange student for a year in 2017-2018. I lived in Minnesota and went to Roseville Area High School. 
+* Turkish **C1** according to [sertificate](https://docs.google.com/document/d/13B4ES_rycjsZKAVXc7uYvL083ng_ExGGmE13VyKT-Wg/edit?usp=sharing) from Kyrgyz-Turkish Manas University 
+* English [TOEFL IBT](https://docs.google.com/document/d/13B4ES_rycjsZKAVXc7uYvL083ng_ExGGmE13VyKT-Wg/edit?usp=sharing) **88**  
+I am Future Leaders Exchange program alumna. I have lived in the USA as an exchange student for a year in 2017-2018. I lived in Minnesota and went to Roseville Area High School. 
+* German **A2** in progress
 
 
 
