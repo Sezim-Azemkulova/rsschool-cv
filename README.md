@@ -1,1 +1,1 @@
-# rsschool-cv
+https://sezim-azemkulova.github.io/rsschool-cv/
