@@ -1,1 +1,1 @@
-https://github.com/Sezim-Azemkulova/rsschool-cv/blob/gh-pages/cv.md
+https://sezim-azemkulova.github.io/rsschool-cv/
