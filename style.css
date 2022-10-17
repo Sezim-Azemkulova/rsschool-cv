@@ -1,6 +1,111 @@
-h1{
-    color: purple;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: bold;
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    background-color:azure;
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    min-width: 1300px;
+    margin: 0;
+}
+.header{
+    background-color: lavender; 
+}
+
+
+.nav-item {
+  float: right;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 80px;
+    color: red;
+    font-size: 20px; 
+    background-color: lavender;
+}
+html {
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+  .nav-link:hover {
+    color: #492110;
+    font-size: 25px;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+    padding: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  
+  img.photo {
+    width:50%;
+    border-radius: 70%;
+    border: 8px solid #002333;
+    margin: 30px;
+    margin-left: 60px;
+  }
+
+  h1 {
+    margin-left: 90px;
+    font-size: 25px;
+
+  }
+  p.career{
+    margin-left: 110px;
+    font-size: 20px;
+  }
+  .summary {
+    margin-top: 100px;
+  }
+
+  img.logo {
+    width: 20%;
+    position:absolute;
+    right: 0;
+}
+.copyright{
+    text-align: center;
+    font-size:15px;
+}
+.github{
+    margin-left: 50px;
+} 
+h2 {
+    font-size: 30px;
+    color: green;
+}
+.mylanguages li {
+   list-style-type: circle;
+}
+.online-courses li {
+    list-style-type: circle;
+}
+.online-courses:hover{
+    color: green;
+    font-size: 25px;
+}
+ 
