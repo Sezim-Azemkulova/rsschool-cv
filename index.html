@@ -1,11 +1,136 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Welcome</title>
-    </head>
-    <body>
-        <h1>Home page</h1>
-        <p>Welcome to my website</p>
-        <img src="рыба.JPG" alt="океанариум" width="700" height="600">
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href=../website.png type="image/png">
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+       <div class="container">
+           <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                <li class="nav-item"><a href="code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a><li></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>     
+            </ul>
+           </nav>
+       </div>
+    </header>
+
+    <main class= "main" >
+            <div class="container main-container">
+                <section class="section" id="profile">
+                <img class="photo" src="./cv_photo.JPG" alt="photo for cv">
+            <h1>Sezim Azemkulova</h1>
+            <p class="career">Front-End Developer</p> 
+        </section>
+        </div>      
+          
+           <section class="section" id="about-me">
+            <div class="summary">
+                <h2>About me</h2>
+            <p>I am a fifth year student of General Medicine. Nowadays, information technologies are used in medicine as well. Contemporary software products help doctors to prevent, diagnose and cure diseases faster. It inspired me to start learning IT. I enrolled in Rolling School course. I want to gain knowledge of Front and Back-end development. In the future I want to combine my knowledge of medicine and IT. So I can develop new software products that will help doctors and patients. </p>
+            </div>
+        </section>
+        <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        +79528984360
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        <a href = "sezim.azemkulova.kk@gmail.com" target = "_blank">sezim.azemkulova.kk@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-telegram"></i>
+                        <a href = "https://web.telegram.org" target = "_blank">Telegram</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <p>Kyrgyz-Turkish Manas University 
+                - foundation year 2017-2018</p>
+               <p> Medical University
+              - faculty of General Medicine 2018-2024 </p>
+               <p>HTML5, CSS3, Git, JS courses on</p>
+               <ul class="online-courses">
+                   <li><a class="education-item" href = "https://ru.hexlet.io/my" target="_blank">Hexlet</a></li>
+                   <li><a class="education-item" href = "https://www.freecodecamp.org/learn" target="_blank">freeCodeCamp</a></li>
+                   <li><a class="education-item" href = "https://www.sololearn.com/home" target="_blank">Sololearn</a></li>
+               </ul>  
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <nav>
+                <ul>
+                    <li>HTML 5</li>
+                    <li>CSS3 ( Preprocessor SCSS, BEM methodology )</li>
+                    <li>Java Script</li>
+                    <li>Version control: Git, GitHub</li>
+                    <li>Figma ( for web development )</li>
+                    <li>Editors: VSCode</li>
+                </ul>
+            </nav>
+        </section>
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <a href = "https://sezim-azemkulova.github.io/rsschool-cv/">CV project</a>
+        </section>
+        <section class="section" id="code">
+            <h2>Code examples</h2>
+            <pre>
+                <code>
+                    let euroToDollars = 1.25;
+                    let dollarsToRubles = 60;
+                    let dollars = prompt("Please, enter the amount of money you want to exchange");
+                    let total = euroToDollars * dollars * dollarsToRubles;
+                    alert(`You will get  ${total} rubles`);
+                </code>
+                <code>
+                    function multiply(a, b){ 
+                        return a * b;
+                       }
+                </code>
+            </pre>
+        </section>
+            <section class="section" id="languages">
+                <h2>Foreign languages</h2>
+                <ul class="mylanguages">
+                    <li>Kyrgyz - native</li>
+                    <li>Russian C1</li>
+                    <li>Turkish C1</li>
+                    <li>English C1 - TOEFL IBT 88</li>
+                    <li>German A1 in progress</li>
+                </ul>
+            </section>  
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a class="github" href="https://github.com/Sezim-Azemkulova" target="_blank">GitHub</a>
+            <a href ="https://rs.school/js/" target="_blank">
+                <img class="logo" src="rs_school_js.svg" alt="logo of RS">
+            </a>
+            <p class="copyright">&copy; Sezim 19.12.2022</p>
+        </div>
+    </footer>
+</div>
+</body>
 </html>
