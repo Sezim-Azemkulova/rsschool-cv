@@ -1,10 +1,13 @@
-*{
-    margin:0;
-    padding:0;
+*
+ {
+   margin: auto;
+   padding: auto;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     list-style-type: none;
     background-color:azure;
+    scroll-behavior: smooth;
+    font-size: 20px;
 }
 
 body {
@@ -14,14 +17,14 @@ body {
     justify-content: space-between;
 }
 
-.container {
-    min-width: 1300px;
-    margin: 0;
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh;
 }
 .header{
     background-color: lavender; 
 }
-
 
 .nav-item {
   float: right;
@@ -30,11 +33,11 @@ body {
 .nav-link {
     display: block;
     padding: 10px;
-    text-decoration: none;
+    text-decoration: underline;
     line-height: 80px;
     color: red;
     font-size: 20px; 
-    background-color: lavender;
+    background-color: azure;
 }
 html {
     overflow: scroll;
@@ -45,9 +48,10 @@ html {
     color: #492110;
     font-size: 25px;
   }
-  .main-container {
+  container.main-container {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 30px;
   }
   
   .section {
@@ -60,7 +64,10 @@ html {
       width: 100%;
     }
   }
-  
+  .education-item:hover{
+    color: navy;
+    font-size:25px;
+  }
   img.photo {
     width:50%;
     border-radius: 70%;
@@ -89,10 +96,14 @@ html {
 }
 .copyright{
     text-align: center;
-    font-size:15px;
+    font-size:25px;
+    color: navy;
+    font-style: oblique;
 }
 .github{
     margin-left: 50px;
+    font-style: oblique;
+    color: navy;
 } 
 h2 {
     font-size: 30px;
@@ -108,4 +119,6 @@ h2 {
     color: green;
     font-size: 25px;
 }
+
+
  
